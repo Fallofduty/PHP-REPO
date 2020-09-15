@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Nunito:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <form action="form.php" method="POST">
+      <h1>Sign UP</h1>
+
+      <fieldset>
+        <legend><span class="number">1</span> Your basic Info</legend>
+        <label for="name">Name:</label>
+
+        <input type="text" id="name" name="user_name" />
+
+        <label for="mail">Email:</label>
+        <input type="text" id="mail" name="user_email" />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="user_password" />
+
+        <label for="">Age</label>
+        <!--this is the label for age options ot the form
+        nothing  to assosated with-->
+        <input type="radio" id="under_13" value="under_13" name="user_rage" />
+        <label for="under_13" class="light">Under 13</label><br />
+        <!--it is better to put it input first 
+        before radio or it will cause both option to be on same menu
+        -->
+        <input type="radio" id="over_13" value="over_13" name="user_rage" />
+        <label for="over_13" class="light"> 13 or older</label>
+        <!--note both options for 
+          input type is named as user_age this will make it only one options.-->
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="number">2</span> Your Profile</legend>
+        <label for="bio">Biography:</label>
+        <textarea name="user_bio" id="bio" cols="30" rows="10"> </textarea>
+        <label for="job">Job role:</label>
+        <select name="user_job" id="job">
+          <!--will create a select menu
+          <select> - The select element renders a drop-down menu that contains selectable options. 
+            This type of form control is ideal for scenarios where the user must choose one option from a preset list of 5 or more choices.
+          -->
+          <optgroup label="software">
+            <!--create logical groups for the user-->
+            <option value="front-End Developer">front-End Developer</option>
+            <!--<option> - The option element represents one of the
+               choices that a user can choose in a select menu. It should always be nested inside of a select element.-->
+            <option value="php Developer">php Developer</option>
+            <option value="Python Developer">Python Developer</option>
+            <!--value differs from user to user-->
+          </optgroup>
+
+          <optgroup label="Mobile">
+            <!--create logical groups for the user with option values-->
+            <option value="IOS Developer">IOS Developer</option>
+            <!--<option> - The option element represents one of the
+               choices that a user can choose in a select menu. It should always be nested inside of a select element.-->
+            <option value="android_developer">Android Developer</option>
+            <!--value differs from user to user-->
+          </optgroup>
+        </select>
+
+        <label>Interest:</label>
+        <input
+          type="checkbox"
+          id="devlopment"
+          value="Development"
+          name="user_interest[]"
+        />
+        <label for="development" class="light">Development</label><br />
+        <!--label for must match development-->
+        <input
+          type="checkbox"
+          id="deisgin"
+          value="deisgin"
+          name="user_interest[]"
+        />
+        <label for="deisgin" class="light">Desigin</label> <br />
+
+        <input
+          type="checkbox"
+          id="business"
+          value="Business"
+          name="user_interest[]"
+        />
+        <label for="business" class="light">Business</label>
+
+        <!--label for must match development-->
+      </fieldset>
+
+      <button type="submit">SignUP</button>
+    </form>
+  </body>
+</html>
