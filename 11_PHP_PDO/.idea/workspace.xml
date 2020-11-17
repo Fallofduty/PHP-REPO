@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b96a3ecb-3d8e-4a7c-ac54-834a8c778bde" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1kOJZ7nIEBASISajhGCzRJroew5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b96a3ecb-3d8e-4a7c-ac54-834a8c778bde" name="Default Changelist" comment="" />
+      <created>1605565757736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605565757736</updated>
+      <workItem from="1605565758743" duration="4536000" />
+      <workItem from="1605579129688" duration="6827000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="999" y="251" key="#PHP" timestamp="1605566155278">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="251" key="#PHP/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605566155278" />
+    <state x="720" y="550" key="#SQL_Resolution_Scopes" timestamp="1605581509804">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="720" y="550" key="#SQL_Resolution_Scopes/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605581509804" />
+    <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605567249166">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605567249166" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605579139042">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605579139042" />
+    <state x="1059" y="455" key="FileChooserDialogImpl" timestamp="1605581505970">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1059" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605581505970" />
+    <state x="1114" y="619" key="NewPhpFileDialog" timestamp="1605586161250">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1114" y="619" key="NewPhpFileDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605586161250" />
+    <state width="82" height="523" key="SqlResolveConfigurable" timestamp="1605581508850">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="82" height="523" key="SqlResolveConfigurable/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605581508850" />
+    <state x="1144" y="417" width="512" height="565" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605580396675">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1144" y="417" width="512" height="565" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605580396675" />
+  </component>
+</project>
